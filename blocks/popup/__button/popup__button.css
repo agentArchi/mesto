@@ -11,6 +11,10 @@
     height: 50px;
 }
 
+.popup__button:hover {
+    opacity: 80%;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .popup__button {
        width: 238px;
