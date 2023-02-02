@@ -1,0 +1,12 @@
+.button_edit {
+    width: 22px;
+    height: 22px;
+    margin: 15px 0 0 0;
+}
+
+  @media (min-width: 320px) and (max-width: 767px)  {
+    .button_edit {
+        margin: -10px 0 0 0;
+        align-self: center;
+    }
+  }

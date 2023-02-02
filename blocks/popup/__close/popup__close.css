@@ -1,0 +1,17 @@
+.popup__close {
+    padding: 0;
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .popup__close {
+        right: 0px;
+        top: -35px;
+    }
+  }

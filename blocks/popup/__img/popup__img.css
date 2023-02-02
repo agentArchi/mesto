@@ -1,0 +1,12 @@
+.popup__img {
+    width: 32px;
+    height: 32px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .popup__img {
+        width: 20px;
+        height: 20px;
+    }
+  }

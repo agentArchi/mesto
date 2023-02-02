@@ -1,0 +1,16 @@
+.card__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-width: 282px;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    gap: 20px 17px;
+}
+
+@media (min-width: 320px) and (max-width: 425px)  {
+    .card__list {
+        grid-template-columns: 1fr;
+        margin: 36px auto;
+        max-width: 282px;
+    }
+  }

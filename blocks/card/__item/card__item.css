@@ -1,0 +1,7 @@
+.card__item {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    min-width: 282px;
+}
