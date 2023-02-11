@@ -7,8 +7,9 @@
     cursor: pointer;
     background-color: transparent;
 }
+
 .popup__close:hover {
-    opacity: 80%;
+    opacity: 60%;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -16,4 +17,4 @@
         right: 0px;
         top: -35px;
     }
-  }
+}

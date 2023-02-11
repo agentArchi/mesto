@@ -7,10 +7,10 @@
     gap: 20px 17px;
 }
 
-@media (min-width: 320px) and (max-width: 425px)  {
+@media (min-width: 320px) and (max-width: 767px) {
     .card__list {
         grid-template-columns: 1fr;
         margin: 36px auto;
         max-width: 282px;
     }
-  }
+}

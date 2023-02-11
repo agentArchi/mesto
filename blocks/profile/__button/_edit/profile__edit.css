@@ -1,0 +1,20 @@
+.profile__edit {
+  width: 22px;
+  height: 22px;
+  margin: 15px 0 0 0;
+}
+
+.profile__edit:hover {
+  opacity: 60%;
+  cursor: pointer;
+  }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .profile__edit {
+    /*margin: 28px 0 0 0;*/
+    /*align-self: center;*/
+      width: 18px;
+      height: 18px;
+      margin: 9px 20px 0 0;
+  }
+}

@@ -14,23 +14,21 @@
         <header class="header">
             <img class="header__logo" src="./images/logo.svg" alt="Логотип mesto">
         </header>
-        <section class="profile">
-
-            <img class="profile__avatar" src="./images/image.jpg" alt="Аватар Жак-Ив Кусто">
-
+        <main class="profile">
+            <img class="profile__avatar" src="./images/image.jpg" alt="Аватар">
             <div class="profile__info">
-                <div class="profile__conteiner">
+                <div class="profile__container">
                     <h1 class="profile__title">Жак-Ив Кусто</h1>
                     <p class="profile__subtitle">Исследователь океана</p>
                 </div>
-                <button class="profile__edit button button_edit">
+                <button type="button" class="button profile__edit">
                     <img class="" src="./images/icon_edit.svg" alt="Иконка кнопки редактировать профиль">
                 </button>
             </div>
-            <button class="profile__add button button_add">
-                <img class="" src="./images/icon_add.svg" alt="Иконка кнопки добавления фотографии">
+            <button type="button" class="button profile__add">
+                <img class="profile__icon" src="./images/icon_add.svg" alt="Иконка кнопки добавления фотографии">
             </button>
-        </section>
+        </main>
         <section class="card">
             <ul class="card__list">
                 <li class="card__item">
@@ -38,9 +36,7 @@
                         alt="Фотография Карачаевск">
                     <div class="card__footer">
                         <h2 class="card__title">Карачаевск</h2>
-                        <button class="card__like">
-                            <span class="card__visually-hidden">Поставить лайк!</span>
-                        </button>
+                        <button type="button" class="card__like"></button>
                     </div>
                 </li>
                 <li class="card__item">
@@ -48,19 +44,14 @@
                         alt="Фотография Гора Эльбрус">
                     <div class="card__footer">
                         <h2 class="card__title">Гора Эльбрус</h2>
-                        <button class="card__like card__like_active">
-                            <span class="card__visually-hidden">Поставить лайк!</span>
-                        </button>
+                        <button type="button" class="card__like"> </button>
                     </div>
                 </li>
                 <li class="card__item">
-                    <img class="card__img" src="./images/kirill-pershin-1404681-unsplash.jpg"
-                        alt="Фотография Домбай">
+                    <img class="card__img" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Фотография Домбай">
                     <div class="card__footer">
                         <h2 class="card__title">Домбай</h2>
-                        <button class="card__like">
-                            <span class="card__visually-hidden">Поставить лайк!</span>
-                        </button>
+                        <button type="button" class="card__like"></button>
                     </div>
                 </li>
                 <li class="card__item">
@@ -68,19 +59,14 @@
                         alt="Фотография Гора Эльбрус">
                     <div class="card__footer">
                         <h2 class="card__title">Гора Эльбрус</h2>
-                        <button class="card__like">
-                            <span class="card__visually-hidden">Поставить лайк!</span>
-                        </button>
+                        <button type="button" class="card__like"></button>
                     </div>
                 </li>
                 <li class="card__item">
-                    <img class="card__img" src="./images/kirill-pershin-1556355-unsplash.jpg"
-                        alt="Фотография Домбай">
+                    <img class="card__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Фотография Домбай">
                     <div class="card__footer">
                         <h2 class="card__title">Домбай</h2>
-                        <button class="card__like card__like_active">
-                            <span class="card__visually-hidden">Поставить лайк!</span>
-                        </button>
+                        <button type="button" class="card__like"></button>
                     </div>
                 </li>
                 <li class="card__item">
@@ -88,9 +74,7 @@
                         alt="Фотография Карачаево-Черкеск">
                     <div class="card__footer">
                         <h2 class="card__title">Карачаево-Черкеск</h2>
-                        <button class="card__like">
-                            <span class="card__visually-hidden">Поставить лайк!</span>
-                        </button>
+                        <button type="button" class="card__like"></button>
                     </div>
                 </li>
             </ul>
@@ -99,21 +83,18 @@
             <p class="footer__copyright">© 2023 Mesto Russia</p>
         </footer>
     </div>
-    <div class="popup">
-        <div class="popup__body">
+    <div class="popup popup_opened">
             <div class="popup__container">
-                <button class="popup__close">
-                    <img class="popup__img" src="./images/Close_icon.svg"
-                        alt="изображение кнопка">
-                    </button>
-                <div class="popup__title">Редактировать профиль</div>
-                <form class="popup__form" method="get">
-                    <input class="popup__input" type="text" name="name" value="Жак-Ив Кусто">
-                    <input class="popup__input" type="text" name="description" value="Исследователь океана">
+                <button type="button" class="popup__close">
+                    <img class="popup__img" src="./images/Close_icon.svg" alt="изображение кнопка">
+                </button>
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <form class="popup__form" method="get" name="form">
+                    <input class="popup__input popup__input_user_name" type="text" name="name">
+                    <input class="popup__input popup__input_user_description" type="text" name="description">
                     <button class="popup__button" type="submit">Сохранить</button>
                 </form>
             </div>
-        </div>
     </div>
     <script src="./scripts/script.js"></script>
 </body>

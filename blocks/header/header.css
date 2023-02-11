@@ -1,19 +1,15 @@
 .header {
-    margin: 0 0 40px 0;
-    border-bottom: 1px solid #545454;
-    padding-bottom: 40px;
+  margin: 0 0 40px 0;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding-bottom: 37px;
 }
 
-@media (min-width: 320px) and (max-width: 767px)   {
-    .header {
-      
-      padding-left: 27px;
-      padding-bottom: 30px;
-      margin: 28px 0 38px 0;
-    }
-  }
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
 
-  @media (min-width: 768px) and (max-width: 1024px)  {
-    .header {
-        
-    }}
+    padding-left: 27px;
+    padding-bottom: 30px;
+    margin: 25px 0 38px 0;
+  }
+}
+

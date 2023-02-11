@@ -3,10 +3,12 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
     .button {
-   margin-left: 0;
+        margin-left: 0;
     }
-  }
+}
