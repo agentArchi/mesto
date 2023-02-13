@@ -21,9 +21,9 @@
     .popup__button {
         width: 238px;
         height: 46px;
-        margin: 45px 22px 25px;
         align-self: center;
         font-size: 14px;
         line-height: 17px;
+
     }
 }
