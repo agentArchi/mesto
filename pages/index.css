@@ -34,3 +34,9 @@
 @import url(../blocks/card/__like/_active/card__like_active.css);
 @import url(../blocks/profile/__icon/profile__icon.css);
 @import url(../blocks/profile/__container/profile__conteiner.css);
+@import url(../blocks/card/__trash/card__trash.css);
+@import url(../blocks/popup/_preview/popup__container_preview.css);
+@import url(../blocks/popup/__preview/popup__preview.css);
+@import url(../blocks/popup/__figure/popup__figure.css);
+@import url(../blocks/popup/__figcaption/popup__figcaption.css);
+@import url(../blocks/popup/__image/popup__image.css);

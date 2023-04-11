@@ -1,0 +1,5 @@
+.popup__container_preview {
+    width: 433px;
+    height: 540px;
+    object-fit: cover;
+}

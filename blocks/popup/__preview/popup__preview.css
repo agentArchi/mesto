@@ -1,0 +1,10 @@
+.popup__preview {
+    position:relative; 
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .popup__preview {
+        /*width: 75%;
+        object-fit: cover;*/
+    }
+}
